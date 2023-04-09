@@ -12,7 +12,7 @@ const Header = () => {
     <div className="bg-white-100 flex items-center justify-between px-5 py-3">
      
       <Link to='/' className="inline-flex items-center">
-        <span className="text-xl font-bold ml-5">Hey dev.</span>
+        <span className="text-2xl font-bold ml-5">Hey dev.</span>
       </Link>
       
       <ul className="lg:flex hidden space-x-8 items-center text-lg font-medium">
