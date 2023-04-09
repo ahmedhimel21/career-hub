@@ -1,0 +1,22 @@
+[
+  {
+    "category_name": "Account & Finance",
+    "category_logo": "https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/03/attachment_64607890-e1489092790211.png?auto=format&q=60&fit=max&w=930",
+    "jobs_available": "300 Jobs Available"
+  },
+  {
+    "category_name": "Creative Design",
+    "category_logo": "https://img.freepik.com/premium-vector/abstract-bulb-logo-design-colorful-3d-style-icons_345408-623.jpg",
+    "jobs_available": "100+ Jobs Available"
+  },
+  {
+    "category_name": "Marketing & Sales",
+    "category_logo": "https://thumbs.dreamstime.com/b/marketing-logo-template-design-vector-consulting-logo-concept-marketing-logo-template-design-vector-consulting-logo-concept-163185964.jpg",
+    "jobs_available": "150 Jobs Available"
+  },
+  {
+    "category_name": "Engineering Job",
+    "category_logo": "https://img.freepik.com/free-vector/gradient-mechanical-engineering-logo-template_23-2149991478.jpg",
+    "jobs_available": "224 Jobs Available"
+  }
+]
