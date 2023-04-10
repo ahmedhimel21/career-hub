@@ -1,5 +1,6 @@
 import React from "react";
 import { MapPinIcon, CurrencyBangladeshiIcon } from "@heroicons/react/24/solid";
+import { Link } from "react-router-dom";
 
 const FeaturedJobs = ({ companyData }) => {
   const {
@@ -39,7 +40,9 @@ const FeaturedJobs = ({ companyData }) => {
           {salary}
           </p>
       </div>
+      <Link to={`../job/${companyData.id}`}>
       <button className="btn-main">View Details</button>
+      </Link>
     </div>
   );
 };
