@@ -9,7 +9,7 @@ import {
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div className="bg-white-100 flex items-center justify-between px-5 py-3">
+    <div className="bg-white-100 flex items-center justify-between px-5 py-5">
      
       <Link to='/' className="inline-flex items-center">
         <span className="text-2xl font-bold ml-5">Hey dev.</span>
