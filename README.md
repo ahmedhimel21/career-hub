@@ -1,0 +1,20 @@
+# b7a9-career-hub-ahmedhimel21
+b7a9-career-hub-ahmedhimel21 created by GitHub Classroom
+
+### hev Dev. is a company, they gives the opportunity to get job in IT sector.
+
+#Live Link
+Hosted in surge -> [hev Dev.](https://pages.github.com/)
+
+#React Router Dom v6.4
+### React router dom is used to create single page application
+
+# heroicons icons
+### I am used icons from heroicons
+heroicons -> [Documentation]([https://pages.github.com/](https://github.com/tailwindlabs/heroicons))
+
+# Tailwind CSS
+### I am used tailwind CSS framework to flexible customization
+
+# flowBite
+### I am used flowBite tailwind component library for some pre build components.
