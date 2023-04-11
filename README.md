@@ -8,7 +8,7 @@
 
 + heroicons icons
 + I am used icons from heroicons
-+ heroicons -> [documentation]([https://github.com/tailwindlabs/heroicons])
++ heroicons -> [Documentation](https://github.com/tailwindlabs/heroicons)
 
 + Tailwind CSS
 + I am used tailwind CSS framework to flexible customization
