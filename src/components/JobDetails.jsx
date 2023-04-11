@@ -68,7 +68,7 @@ const JobDetails = () => {
           </p>
         </div>
 
-        <div className="p-8 bg-purple-50 rounded-lg w-[424px] h-[421px] mb-6">
+        <div className="p-8 bg-purple-50 rounded-lg w-[480px] mb-6">
           <h1 className="text-lg font-bold mb-6">Job Details</h1>{" "}
           <hr className="mb-6" />
           <p className="flex mb-4 space-x-2">
@@ -93,19 +93,19 @@ const JobDetails = () => {
             <span className="text-md font-bold">email:</span>
             <span>{email}</span>
           </p>
-          <p className="flex space-x-2">
+          <p className="flex space-x-2 mb-3">
             <MapPinIcon className="h-6 w-6 text-purple-400" />
             <span className="text-md font-bold">Address:</span>
             <span>{location}</span>
           </p>
-        </div>
-      </div>
-      <button
+          <button
         onClick={() => handleApplyNow(id)}
-        className="btn-main w-[425px] h-16 lg:ms-[780px]"
+        className="btn-main w-[425px] h-16"
       >
         Apply Now
       </button>
+        </div>
+      </div>
     </>
   );
 };

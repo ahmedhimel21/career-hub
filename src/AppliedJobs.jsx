@@ -27,7 +27,7 @@ const AppliedJobs = () => {
         Applied Jobs List
       </h1>
 
-      <div className="ms-[1280px] mb-8">
+      <div className="mx-auto mb-8">
       <FilterJobs filterValueSelected={onFilterValueSelected}></FilterJobs>
       </div>
      
