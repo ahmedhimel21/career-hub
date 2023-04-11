@@ -53,7 +53,7 @@ const Home = () => {
       </div>
       {/* cards section */}
       <div className="flex justify-around mt-8">
-        {cardsData.map((cards, idx) => (
+        {cardsData.map((cards,idx) => (
           <Cards key={idx} cards={cards}></Cards>
         ))}
       </div>

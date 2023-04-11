@@ -3,9 +3,11 @@ import {
   MapPinIcon,
   CurrencyBangladeshiIcon
 } from "@heroicons/react/24/solid";
+import { Link } from "react-router-dom";
 
-const Jobs = ({ job }) => {
+const Jobs = ({ job}) => {
   const {
+    id,
     company_logo,
     job_title,
     company_name,
@@ -39,7 +41,9 @@ const Jobs = ({ job }) => {
           </p>
       </div>
       </div>
-      <button className="btn-main">View Details</button>
+     <Link to={`/job/${id}`}>
+     <button className="btn-main">View Details</button>
+     </Link>
     </div>
   );
 };

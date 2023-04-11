@@ -48,7 +48,7 @@ const JobDetails = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mx-32 mt-16">
         <div>
           <p className="mb-6">
-            <span className="text-md font-bold">Job Description: </span>
+            <span className="text-lg font-semibold">Job Description: </span>
             <span>{job_description}</span>
           </p>
           <p className="mb-6">
@@ -72,29 +72,29 @@ const JobDetails = () => {
           <h1 className="text-lg font-bold mb-6">Job Details</h1>{" "}
           <hr className="mb-6" />
           <p className="flex mb-4 space-x-2">
-            <CurrencyBangladeshiIcon className="h-6 w-6 text-gray-500" />
+            <CurrencyBangladeshiIcon className="h-6 w-6 text-purple-400" />
             <span className="text-md font-bold">Salary:</span>
             <span>{salary} (Per Month)</span>
           </p>
           <p className="flex mb-8 space-x-2">
-            <BriefcaseIcon className="h-6 w-6 text-gray-500" />
+            <BriefcaseIcon className="h-6 w-6 text-purple-400" />
             <span className="text-md font-bold">Job Title:</span>
             <span>{job_title}</span>
           </p>
           <h1 className="text-lg font-bold mb-6">Contact Information</h1>
           <hr className="mb-6" />
           <p className="flex mb-4 space-x-2">
-            <PhoneIcon className="h-6 w-6 text-gray-500" />
+            <PhoneIcon className="h-6 w-6 text-purple-400" />
             <span className="text-md font-bold">Phone:</span>
             <span>{phone}</span>
           </p>
           <p className="flex mb-4 space-x-2">
-            <InboxStackIcon className="h-6 w-6 text-gray-500" />
+            <InboxStackIcon className="h-6 w-6 text-purple-400" />
             <span className="text-md font-bold">email:</span>
             <span>{email}</span>
           </p>
           <p className="flex space-x-2">
-            <MapPinIcon className="h-6 w-6 text-gray-500" />
+            <MapPinIcon className="h-6 w-6 text-purple-400" />
             <span className="text-md font-bold">Address:</span>
             <span>{location}</span>
           </p>
