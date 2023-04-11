@@ -23,7 +23,7 @@ const Home = () => {
   return (
     <>
       {/* banner section */}
-      <div className="lg:flex justify-around items-center mt-36">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 items-center mt-36 mx-auto">
         <div>
           <h1 className="text-5xl font-bold mb-6">
             <span>One Step</span> <br />
