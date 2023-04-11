@@ -1,10 +1,8 @@
-# b7a9-career-hub-ahmedhimel21
-b7a9-career-hub-ahmedhimel21 created by GitHub Classroom
 
 ### hev Dev. is a company, they gives the opportunity to get job in IT sector.
 
 #Live Link
-Hosted in surge -> [hev Dev.](https://pages.github.com/)
+Hosted in surge -> [hev Dev.](https://fumbling-passenger.surge.sh/)
 
 #React Router Dom v6.4
 ### React router dom is used to create single page application
