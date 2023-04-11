@@ -7,20 +7,26 @@ import {
   PhoneIcon,
   InboxStackIcon,
 } from "@heroicons/react/24/solid";
+import { addToDb } from "./utilities/fakedb";
+
 
 const JobDetails = () => {
   const dynamic = useParams();
-  console.log(dynamic.id);
   const [job, setJob] = useState({});
   const data = useLoaderData();
+
+  const handleApplyNow = (id) => {
+    addToDb(id);
+  };
+
   useEffect(() => {
     const exist = data.find((singleData) => singleData.id == dynamic.id);
     if (exist) {
       setJob(exist);
     }
   }, []);
-  console.log(job);
   const {
+    id,
     job_description,
     job_responsibility,
     education_requirements,
@@ -39,7 +45,7 @@ const JobDetails = () => {
         </h1>
       </div>
 
- <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mx-32 mt-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mx-32 mt-16">
         <div>
           <p className="mb-6">
             <span className="text-md font-bold">Job Description: </span>
@@ -76,7 +82,7 @@ const JobDetails = () => {
             <span>{job_title}</span>
           </p>
           <h1 className="text-lg font-bold mb-6">Contact Information</h1>
-          < hr className="mb-6" />
+          <hr className="mb-6" />
           <p className="flex mb-4 space-x-2">
             <PhoneIcon className="h-6 w-6 text-gray-500" />
             <span className="text-md font-bold">Phone:</span>
@@ -94,7 +100,12 @@ const JobDetails = () => {
           </p>
         </div>
       </div>
-      <button className="btn-main w-[425px] h-16 lg:ms-[780px]">Apply Now</button>
+      <button
+        onClick={() => handleApplyNow(id)}
+        className="btn-main w-[425px] h-16 lg:ms-[780px]"
+      >
+        Apply Now
+      </button>
     </>
   );
 };
